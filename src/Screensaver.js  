@@ -1,0 +1,7 @@
+import React from 'react';
+
+const Screensaver = () => (
+    <video src="/screensaver.mp4" autoPlay loop muted className="screensaver" />
+);
+
+export default Screensaver;
